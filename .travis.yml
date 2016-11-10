@@ -1,0 +1,4 @@
+os:
+  - osx
+language: objective-c
+xcodebuild --help
