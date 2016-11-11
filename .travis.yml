@@ -1,5 +1,4 @@
 language: objective-c
 os: osx
 osx_image: xcode7.3
-script:
- - xctool -project scr -sdk iphonesimulator
+script: xctool -workspace scr.xcworkspace -sdk iphonesimulator -configuration Release test -test-sdk iphonesimulator
