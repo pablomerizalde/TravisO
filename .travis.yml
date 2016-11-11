@@ -1,7 +1,4 @@
 os:
   - osx
 language: objective-c
-rvm:
- - 2.2
- - jruby
- - rbx-2
+script:
