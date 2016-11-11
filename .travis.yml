@@ -1,5 +1,5 @@
 language: objective-c
 os: osx
 osx_image: xcode7.3
-script
+script:
  - xctool -project scr -sdk iphonesimulato
